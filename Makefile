@@ -1,2 +1,5 @@
-run:
-	uv run uvicorn --reload main:app
+host:
+	uv run python mcpbox.py
+
+functions:
+	uv run mcp dev functions.py
